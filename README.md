@@ -35,3 +35,11 @@ Then run all cells from top to bottom (**Kernel → Restart & Run All**).
 
 The file was created and run using Python 3.14.5.
 
+### 3. Future Work
+
+This data will be used in the next phase of the project to build predictive models for energy consumption and quality indicators in steel production. Future steps include model selection, training, and evaluation using machine learning techniques.
+
+### 4. Data Cleaning Bias
+
+Failing to clean the data can lead to biased results, for example not removing outliers or handling missing values can skew the analysis and lead to incorrect conclusions about the relationships between variables. Also, ignoring the carbon effect in DRI can lead to underestimating its impact on energy consumption, thats why it was critical to include it to the current ingected values of Carbon.
+
